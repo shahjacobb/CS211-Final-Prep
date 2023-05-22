@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+typedef char box[5][7];
+
 int main()
 {
 
@@ -18,6 +20,10 @@ int main()
     j represents all 7 columns
     but remember, since each column is up of 8 characters, we actually need another variable for the fourth column
     i -> k -> j -> l
+
+
+    on to how to actually do it: we are not supposed to print out c.... 
+    we use a typedef for a 5x7 char array called box. 
     */
 
    int i, j;
